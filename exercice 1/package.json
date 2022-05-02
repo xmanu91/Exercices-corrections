@@ -1,0 +1,17 @@
+{
+  "name": "exercice-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.5.0",
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "sass": "sass style.scss css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
