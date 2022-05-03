@@ -34,7 +34,7 @@ header .right {
 header .right .menu {
   color: #8a8f9f;
   gap: 30px;
-  font-weight: 600;
+  font-weight: 0;
   list-style: none;
   display: flex;
 }
@@ -72,7 +72,7 @@ section .title {
 
 section p {
   color: #2e3139;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 section .button {
@@ -81,7 +81,7 @@ section .button {
   border-radius: 50px;
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ section .card {
   width: 60vw;
   -webkit-backdrop-filter: blur(33px);
   backdrop-filter: blur(33px);
-  background: #fcf9f7cc;
+  background: #fcf9f7e6;
   border-radius: 20px;
   flex-direction: column;
   gap: 30px;

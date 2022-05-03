@@ -34,7 +34,7 @@ header{
             list-style: none;
             gap: 30px;  
             color: #8a8f9f;
-            font-weight: 600;
+            font-weight: 00;
         }
 
         .account{
@@ -72,7 +72,7 @@ section{
     }
 
     p{
-        font-weight: 600;
+        font-weight: 500;
         color: #2e3139;
     }
 
@@ -82,14 +82,14 @@ section{
         text-decoration: none;
         padding: 10px 20px;
         color: white;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 14px;
     }
 
     .card{
         display: flex;
         flex-direction: column;
-        background: rgba(#fcf9f7, 0.8);
+        background: rgba(#fcf9f7, 0.9);
         width: 60vw;
         padding: 30px;
         border-radius: 20px;
