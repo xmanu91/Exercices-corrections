@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppis, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+header .menu {
+  display: flex;
+  margin-left: 20px;
+  position: relative;
+  gap: 5px;
+  flex-direction: column;
+}
+header .menu span {
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: white;
+  transition: 0.5s;
+}
+
+.tab {
+  position: absolute;
+  left: 0;
+  background: black;
+  height: 100%;
+  transition: 0.5s;
+  height: 0;
+  width: 100%;
+  opacity: 0;
+  color: white;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  height: 100%;
+  opacity: 1;
+  z-index: 1;
+}
+
+header .active {
+  z-index: 2;
+  margin-top: 40px;
+}
+header .active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-4px, 0px);
+}
+header .active span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+header .active span:nth-child(2) {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
